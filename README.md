@@ -1,3 +1,8 @@
+# To run this project
+- go to server/ file, use command ```java -jar CreateWhiteBoard.jar <IP> <Port> <Username>```
+   - the server one is administrator name 
+- go to client/ file, use command ```java -jar JoinWhiteBoard.jar <IP> <Port> <Username>```
+
 **System Architecture**
 
 Refer to Figure1 for a summary of the system architecture of shared whiteboards. When a user receives a message from a client or manager, the server typically broadcasts it simultaneously to all connected clients. The Server's whiteboard keeps track of everyone's plots and functions as a manager, meaning that the Server propagates all system data to all users entering the system via the RMI interface. This indicates that the Server will disseminate all system data to all users who access the system via the RMI interface.
@@ -6,13 +11,13 @@ Refer to Figure1 for a summary of the system architecture of shared whiteboards.
 
 Figure 1. System Structure
 
-![img](file:////Users/chenoi/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image002.png)
+![image](https://user-images.githubusercontent.com/68847099/193993046-9ddbfc1d-911b-4d69-91b2-b9dec11ea8df.png)
 
 Figure 2. Server Sequence Graph
 
  
 
-![Timeline  Description automatically generated](file:////Users/chenoi/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image003.png)
+![image](https://user-images.githubusercontent.com/68847099/193993095-97a2bc29-969a-4bfc-a99e-7f2cf9566713.png)
 
 Figure 3. Client Sequence Graph
 
@@ -50,7 +55,7 @@ I have sent all the parameters needed for each draw graphic through the socket.
 
 **Class Design**
 
-![Graphical user interface, table  Description automatically generated](file:////Users/chenoi/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image004.png)
+![image](https://user-images.githubusercontent.com/68847099/193993147-66af6849-c8bd-45f0-af3b-29b94a047c3f.png)
 
 Figure 4. Class UML
 
@@ -78,41 +83,33 @@ I met most of the requirements by establishing a long socket connection to send 
 
 **Appendix**
 
-![图形用户界面, 应用程序  描述已自动生成](file:////Users/chenoi/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image005.png)
+![image](https://user-images.githubusercontent.com/68847099/193993190-8eb4f20d-5650-4a40-81e0-b41abfca01f3.png)
 
 Figure 5. Manager GUI
 
  
 
-![图片包含 图示  描述已自动生成](file:////Users/chenoi/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image006.png)
+![image](https://user-images.githubusercontent.com/68847099/193993232-af7b03db-19ec-42c6-99c5-f2e63fe0e848.png)
 
 Figure 6. Client GUI
-
  
-
- 
-
-![Graphical user interface, application  Description automatically generated](file:////Users/chenoi/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image007.png)
+![image](https://user-images.githubusercontent.com/68847099/193993261-0c794268-6ca6-4b48-9949-a2a7710f2250.png)
 
 Figure 7. Shared Canvas
 
-![图形用户界面, 应用程序  描述已自动生成](file:////Users/chenoi/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image008.png)
+![image](https://user-images.githubusercontent.com/68847099/193993300-468541f2-157f-46cc-9e17-d801718bc49c.png)
 
 Figure 8. Client Request (RMI)
 
-![Graphical user interface, application  Description automatically generated](file:////Users/chenoi/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image009.png)
+![image](https://user-images.githubusercontent.com/68847099/193993326-96f97913-7e64-4d7e-91a9-4d877b6ba302.png)
 
 Figure 9. Client disconnected
 
-![Graphical user interface, application  Description automatically generated](file:////Users/chenoi/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image010.png)
+![image](https://user-images.githubusercontent.com/68847099/193993351-e85c38c5-2075-4cfa-9146-7b1bc967027c.png)
 
 Figure 10. Open Files
 
- 
-
- 
-
-![Graphical user interface, application  Description automatically generated](file:////Users/chenoi/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image011.png)
+![image](https://user-images.githubusercontent.com/68847099/193993375-9d7c6839-cee5-4f2b-abb0-ffc333e0cd9c.png)
 
 Figure 11. Save As Files
 
