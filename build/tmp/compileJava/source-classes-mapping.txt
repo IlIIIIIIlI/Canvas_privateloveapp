@@ -1,0 +1,36 @@
+Remote/IRemoteConnect.java
+ Remote.IRemoteConnect
+Client/JoinWhiteBoard.java
+ Client.JoinWhiteBoard
+Server/CreateWhiteBoard.java
+ Server.CreateWhiteBoard
+ Server.CreateWhiteBoard$1
+ Server.CreateWhiteBoard$10
+ Server.CreateWhiteBoard$11
+ Server.CreateWhiteBoard$2
+ Server.CreateWhiteBoard$3
+ Server.CreateWhiteBoard$4
+ Server.CreateWhiteBoard$5
+ Server.CreateWhiteBoard$6
+ Server.CreateWhiteBoard$7
+ Server.CreateWhiteBoard$8
+ Server.CreateWhiteBoard$9
+Client/Client.java
+ Client.Client
+GUI/ClientGUI.java
+ GUI.ClientGUI
+ GUI.ClientGUI$1
+ GUI.ClientGUI$2
+ GUI.ClientGUI$3
+ GUI.ClientGUI$4
+ GUI.ClientGUI$5
+ GUI.ClientGUI$6
+ GUI.ClientGUI$7
+Server/Propagation.java
+ Server.Propagation
+GUI/ServerGUI.java
+ GUI.ServerGUI
+GUI/test.java
+ GUI.test
+Server/RemoteControl.java
+ Server.RemoteControl
