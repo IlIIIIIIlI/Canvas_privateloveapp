@@ -2,7 +2,7 @@
 
 Refer to Figure1 for a summary of the system architecture of shared whiteboards. When a user receives a message from a client or manager, the server typically broadcasts it simultaneously to all connected clients. The Server's whiteboard keeps track of everyone's plots and functions as a manager, meaning that the Server propagates all system data to all users entering the system via the RMI interface. This indicates that the Server will disseminate all system data to all users who access the system via the RMI interface.
 
-**![Diagram  Description automatically generated](file:////Users/chenoi/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image001.png)**
+![image](https://user-images.githubusercontent.com/68847099/193992974-ef3929fb-a928-40a7-aa68-dc5e43212655.png)
 
 Figure 1. System Structure
 
