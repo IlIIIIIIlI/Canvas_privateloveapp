@@ -1,4 +1,7 @@
-# To run this project
+## This is a java-gradle project
+### This is a real-time shared canvas project.
+
+## To run this project
 - go to server/ file, use command ```java -jar CreateWhiteBoard.jar <IP> <Port> <Username>```
    - the server one is administrator name 
 - go to client/ file, use command ```java -jar JoinWhiteBoard.jar <IP> <Port> <Username>```
